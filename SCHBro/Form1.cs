@@ -210,7 +210,7 @@ namespace SCHBro
 
         private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Application.Exit();
         }
 
         private void clipboardSearchToolStripMenuItem_Click(object sender, EventArgs e)
