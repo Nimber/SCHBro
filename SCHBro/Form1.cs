@@ -33,12 +33,20 @@ namespace SCHBro
             menuStrip1.Dock = DockStyle.Top;
             this.Controls.Add(browser);
             browser.Navigate("http://www.google.com");
-            
+            notifyIcon1.BalloonTipText = "You can click notification icon to directly search in the box with anything in your clipboard.";
+            notifyIcon1.BalloonTipTitle = "SCHBro Started";
+            notifyIcon1.ShowBalloonTip(1000);
         }
 
         private void toolStripTextBox1_Click(object sender, EventArgs e)
         {
-            toolStripTextBox1.Text = Clipboard.GetText();
+            // Automatically paste whatever in the clipboard and sellect them all
+            if (Clipboard.GetText() != ""&& Clipboard.GetText()!=toolStripTextBox1.Text)
+            {
+                toolStripTextBox1.Text = Clipboard.GetText();
+                toolStripTextBox1.Focus();
+                toolStripTextBox1.SelectAll();
+            }
         }
         private void toolStripTextBox1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -185,6 +193,35 @@ namespace SCHBro
                     browser.Navigate("http://www.google.com/");
                 }
             }
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            contextMenuStrip1.Left = MousePosition.X;
+            contextMenuStrip1.Top = MousePosition.Y;
+            contextMenuStrip1.Show();
+        }
+
+        private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
+        {
+            toolStripTextBox1_Click(null, null);
+            gOToolStripMenuItem_Click(null, null);
+        }
+
+        private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clipboardSearchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            toolStripTextBox1_Click(null, null);
+            gOToolStripMenuItem_Click(null, null);
+        }
+
+        private void clearClickboardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Clipboard.Clear();
         }
     }
 }
