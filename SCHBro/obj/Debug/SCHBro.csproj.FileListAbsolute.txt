@@ -1,0 +1,11 @@
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Debug\SCHBro.exe.config
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Debug\SCHBro.exe
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Debug\SCHBro.pdb
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Debug\SCHBro.Form1.resources
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Debug\SCHBro.Properties.Resources.resources
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Debug\SCHBro.csproj.GenerateResource.Cache
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Debug\SCHBro.exe
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Debug\SCHBro.pdb
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Debug\WebKit.Interop.dll
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Debug\stdole.dll
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Debug\SCHBro.csprojResolveAssemblyReference.cache

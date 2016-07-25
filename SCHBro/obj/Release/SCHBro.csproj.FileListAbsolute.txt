@@ -1,0 +1,11 @@
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Release\SCHBro.exe.config
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Release\SCHBro.exe
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Release\SCHBro.pdb
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Release\WebKitBrowser.dll
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Release\WebKit.Interop.dll
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\bin\Release\stdole.dll
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Release\SCHBro.Form1.resources
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Release\SCHBro.Properties.Resources.resources
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Release\SCHBro.csproj.GenerateResource.Cache
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Release\SCHBro.exe
+C:\Users\NiSheng\Documents\Visual Studio 2015\Projects\SCHBro\SCHBro\obj\Release\SCHBro.pdb
