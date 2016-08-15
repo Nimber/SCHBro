@@ -86,6 +86,10 @@ namespace SCHBro
             this.TopMost = !this.TopMost;
         }
 
+        private void toolStripComboBox1_itemchange(object sender, EventArgs e)
+        {
+            gOToolStripMenuItem_Click(null,null);
+        }
         private void gOToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (toolStripComboBox1.Text != "")

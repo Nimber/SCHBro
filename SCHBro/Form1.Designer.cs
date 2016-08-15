@@ -86,6 +86,7 @@
             this.toolStripComboBox1.Size = new System.Drawing.Size(140, 40);
             this.toolStripComboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.toolStripComboBox1_KeyDown);
             this.toolStripComboBox1.Click += new System.EventHandler(this.toolStripComboBox1_Click);
+            this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox1_itemchange);
             // 
             // tOPToolStripMenuItem
             // 
@@ -190,6 +191,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void ToolStripComboBox1_SelectedIndexChanged(object sender, System.EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
 
 
